@@ -1,8 +1,10 @@
 """
+Insert photos into an MS Word table.
 
-insert photos into word table
-
+Prompts the user to select the folder where images are located, and creates a word
+document where photos are inserted into a table.
 """
+
 import os
 import docx
 import tkinter as tk

@@ -1,8 +1,9 @@
 """
+Colour table cells in MS Word based on numerical value.
 
-colour MS word cells based on value
-
+Table needs to be in its own document that contains only 1 table.
 """
+
 import os
 import docx
 from docx.oxml.ns import nsdecls
